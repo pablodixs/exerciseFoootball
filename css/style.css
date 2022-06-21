@@ -1,0 +1,119 @@
+@import url("https://use.typekit.net/ypg6cyq.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url(/css/tables.css);
+
+:root {
+    --blue-default: #005391;
+    --light-blue: #f0f8ff;
+    --green-bras: #38B140;
+    --grey-default: rgba(0, 0, 0, 0.5);
+    --light-black: rgb(39, 39, 39);
+    --condensed: open-sans-condensed, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header li {
+    font-family: var(--condensed);
+    font-weight: 700;
+    text-transform: uppercase;
+    color:var(--light-black);
+    list-style: none;
+    display: inline;
+    padding: 5px 10px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: url(../assets/logo.svg) no-repeat center;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+#logo-league {
+    width: 50px;
+}
+
+.desc {
+    font-family: var(--condensed);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .5px;
+    color: var(--grey-default);
+}
+
+#table-title {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+#table {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#table img{
+    width: auto;
+    height: 250px;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    bottom: 0;
+    font-size: 0.7rem;
+    font-weight: 600;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: var(--grey-default);
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
