@@ -1,2 +1,3 @@
-# exercise_tabelasHTML
- Exercício para praticar a tag table do HTML.
+### 📚 HTML: Table Tag
+- Exercício para praticar a tag table do HTML e CSS.
+
