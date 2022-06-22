@@ -1,0 +1,54 @@
+
+.selector {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.selector a{
+    text-decoration: none;
+}
+
+.select {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 2px 2px 8px #00000070;
+    margin-top: 20px;
+    transition: all ease-in-out 200ms;
+}
+
+.select h1{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 50px;
+    font-size: 1.75rem;
+    transition: all ease-in-out 200ms;
+}
+
+.select h1:hover {
+    padding-left: 100px;
+}
+
+.first {
+    background: url("https://images2.minutemediacdn.com/image/upload/c_crop,w_3685,h_2072,x_0,y_96/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_pt-BR_international_web/01g04krr7mctz9jgmr57.jpg") no-repeat bottom;
+    background-size: cover;
+}
+
+.second {
+    background: url("https://media-exp1.licdn.com/dms/image/C4E1BAQHr22CCBLl54w/company-background_10000/0/1596643222851?e=2147483647&v=beta&t=72XbrnCrHea-C4mVNzJPAY24tc7WcXvfCBDhmR8AwGk") no-repeat center;
+    background-size: cover;
+}
+
+.third {
+    background: url("https://library.sportingnews.com/2021-11/2022-fifa-world-cup-qatar_9pjegf61gpj71muxs4nn8fvnr.jpg") no-repeat center;
+    background-size: cover;
+}
