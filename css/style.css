@@ -72,6 +72,7 @@ main {
     min-height: 100%;
     margin: auto;
     margin-top: 20px;
+<<<<<<< Updated upstream
     overflow: auto;
 }
 
@@ -98,6 +99,42 @@ main {
 
 .info-button:hover {
     background-color: #003965;
+=======
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.tile {
+    position: relative;
+   width: 33%;
+   height: 400px;
+   border-radius: 5px;
+   color: white;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   background-color: black;
+}
+
+.cor {
+    background: url("https://cdn.meutimao.com.br/_upload/noticia/2022/05/15/corinthians-e-lider-do-brasileirao-com-13-zy941w.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.premier {
+    background: url("https://www.lance.com.br/files/article_main/uploads/2021/11/24/619eb3e63ba63.jpeg") no-repeat center;
+    background-size: cover;
+}
+
+.worldcup {
+    background: url("https://pbs.twimg.com/media/FJkAhxlX0AEmtXL.jpg") no-repeat center;
+    background-size: cover;
+>>>>>>> Stashed changes
 }
 
 .info {
@@ -143,7 +180,10 @@ main {
 }
 
 footer {
+<<<<<<< Updated upstream
     margin-top: 50px;
+=======
+>>>>>>> Stashed changes
     font-size: 0.7rem;
     font-weight: 600;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
