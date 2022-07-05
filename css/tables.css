@@ -4,7 +4,6 @@
     --green-bras: #38B140;
     --grey-default: #00000080;
     --light-black: #272727;
-    --condensed: open-sans-condensed, sans-serif;
 }
 
 table {
@@ -14,7 +13,6 @@ table {
 }
 
 .sub-title th {
-    font-family: var(--condensed);
     padding-bottom: 10px;
 }
 
